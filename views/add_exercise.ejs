@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Exercise</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container mt-4">
+        <h1 class="text-center">Add a New Exercise</h1>
+        <form action="/add_exercise" method="POST">
+            <div class="form-group">
+                <label for="name">Exercise Name</label>
+                <input type="text" class="form-control" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="age">Age</label>
+                <input type="number" class="form-control" id="age" name="age" required>
+            </div>
+            <div class="form-group">
+                <label for="height">Height</label>
+                <input type="number" class="form-control" id="height" name="height" required>
+            </div>
+            <button type="submit" class="btn btn-primary">Add Exercise</button>
+        </form>
+    </div>
+</body>
+</html>
