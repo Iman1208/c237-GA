@@ -4,9 +4,9 @@ const mysql = require('mysql2');
 const multer = require('multer');
 
 const connection = mysql.createConnection({
-    host: 'localhost',
-    user: 'root', 
-    password: '', 
+    host: 'db4free.net',
+    user: 'iman1208', 
+    password: 'RazzorBlade12', 
     database: 'exercises' 
 });
 
